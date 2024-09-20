@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from '../../Components/Navigation/index'
-import './style.css'
+import './Style.css'
 import Header from '../../Components/Header'
 import ArtistContent from '../../Components/ArtistContents'
 
