@@ -1,0 +1,97 @@
+
+.Songs-cards{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: .85rem;
+}
+
+.Songs-cards h3{
+    font-size: 1.5rem;
+    color: #fefefe;
+    font-weight: 600;
+    padding: 1rem;
+}
+.all-Songs-cards-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: #212121;
+}
+
+.Card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+
+.Song__id{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fefefe;
+}
+
+.Song__info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Song__album{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Song__title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fefefe;
+}
+.Song__artist{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6b6b6b;
+}
+
+
+.duration{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.play-button{
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fefefe;
+}
+.play-button i{
+    color: #ADFF00;
+    font-size: 1.5rem;
+}
+
+
+.Song__image img{
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    aspect-ratio: 4/3;
+}
+
+
+

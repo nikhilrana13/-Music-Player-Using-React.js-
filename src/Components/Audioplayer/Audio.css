@@ -1,0 +1,10 @@
+.audio-player-card{
+    padding:1rem;
+    margin-top: 2rem;
+}
+
+.audio-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
