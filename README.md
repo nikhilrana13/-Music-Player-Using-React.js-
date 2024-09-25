@@ -35,3 +35,5 @@ React Router: For creating the single-page application with multiple routes.
 
 CSS: For styling the cards and overall layout.
 
+website live link: https://medaaplayer.netlify.app/
+
